@@ -1,12 +1,17 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        double livroJava8;
-        double livroTDD;
+        
+        double soma = 0;
+        int contador = 0;
 
-        livroJava8 = 59.90;
-        livroTDD = 59.90;
+        while (contador < 35){
+            double valorDoLivro = 59.90;
+            soma += valorDoLivro;
+            contador ++;
+        }
 
-        double soma = livroJava8 + livroTDD;
+        System.out.println("O total em estoque é $" +soma);
+
         if(soma < 150){
             System.out.println("Seu estoque está muito baixo!");
         }else if(soma >=2000){
@@ -14,7 +19,5 @@ public class App {
         }else{
             System.out.println("Seu estoque está bom!");
         }
-     
-        System.out.println("O total em estoque é: $"+soma);
     }
 }
