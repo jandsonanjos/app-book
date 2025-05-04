@@ -7,13 +7,13 @@ public class Livro {
     double valor;
 
     void mostrarDetalhes(){
-
-        String mensagem = "Mostrando detalhes do livro";
+        String mensagem = "Mostrando detalhes do livro\n";
         System.out.println(mensagem);
-        System.out.println(nome);
-        System.out.println(descricao);
-        System.out.println(isbn);
-        System.out.println(valor);
+        System.out.println("Nome: "+nome);
+        System.out.println("Descrição: "+descricao);
+        System.out.println("ISBN: "+isbn);
+        System.out.println("Valor: $"+valor+" BRL");
+        System.out.println("___________________________________\n");
     }
 }
 

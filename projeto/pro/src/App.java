@@ -2,9 +2,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         double soma = 0;
-      
-        for (int contador = 0; contador < 35; contador ++){
-            soma += 59.99;
+        
+        for (double i = 0; i < 35; i++){
+            soma +=59.90;
         }
 
         System.out.println("O total em estoque é $" +soma);
