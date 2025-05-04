@@ -7,10 +7,17 @@ public class CadastroDeLivros {
         livro.isbn = "324-42-32444-42-6";
         livro.valor = 59.90;
 
-        System.out.println(livro.nome);
-        System.out.println(livro.descricao);
-        System.out.println(livro.isbn);
-        System.out.println("$"+livro.valor);
+        livro.mostrarDetalhes();
+
+        Livro outroLivro = new Livro();
+
+        outroLivro.nome = "Lógica de programação";
+        outroLivro.descricao = "Orientado a objetos";
+        outroLivro.isbn = "234-323-3213-3232-23";
+        outroLivro.valor = 59.90;
+
+        outroLivro.mostrarDetalhes();
+
     }
 
 }
