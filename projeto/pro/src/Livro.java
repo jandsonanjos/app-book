@@ -17,6 +17,9 @@ public class Livro {
         System.out.println("Descrição: "+descricao);
         System.out.println("ISBN: "+isbn);
         System.out.println("Valor: $"+valor+" BRL");
+        System.out.println("____________________________________\n");
+        System.out.println("Details author: \n");
+        autor.mostrarDetalhes();
         System.out.println("___________________________________\n");
     }
 }

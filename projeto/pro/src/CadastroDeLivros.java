@@ -29,6 +29,7 @@ public class CadastroDeLivros {
         outroAutor.cpf = "234-323-332-21";
 
         outroLivro.autor = outroAutor;
+        
         outroLivro.mostrarDetalhes();
 
 
