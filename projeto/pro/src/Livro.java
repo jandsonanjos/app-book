@@ -5,9 +5,6 @@ public class Livro {
     String descricao;
     String isbn;
     double valor;
-    String nomeDoAutor;
-    String emailDoAutor;
-    String cpfDoAutor;
     Autor autor;
 
     void mostrarDetalhes(){
@@ -20,11 +17,12 @@ public class Livro {
         System.out.println("____________________________________\n");
         System.out.println("Details author: \n");
         autor.mostrarDetalhes();
-        System.out.println("___________________________________\n");
+        System.out.println("___________________________________\n"); 
     }
-
+    
     public void aplicaDescontoDe(double porcentagem){
         this.valor -= this.valor * porcentagem;
     }
+
 }
 
