@@ -8,7 +8,7 @@ public class Livro {
     String nomeDoAutor;
     String emailDoAutor;
     String cpfDoAutor;
-    public Autor autor;
+    Autor autor;
 
     void mostrarDetalhes(){
         String mensagem = "Mostrando detalhes do livro\n";
@@ -21,6 +21,10 @@ public class Livro {
         System.out.println("Details author: \n");
         autor.mostrarDetalhes();
         System.out.println("___________________________________\n");
+    }
+
+    public void aplicaDescontoDe(double porcentagem){
+        this.valor -= this.valor * porcentagem;
     }
 }
 
